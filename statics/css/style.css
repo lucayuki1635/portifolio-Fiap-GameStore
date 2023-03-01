@@ -1,0 +1,16 @@
+.header-black{
+    background-color: #000;
+}
+
+a{
+    text-decoration:none;
+    color: #fff
+}
+
+
+.search{
+    background-color: #a9a9a9;
+}
+::placeholder {
+    color: #d3d3d3;
+}
