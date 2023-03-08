@@ -1,16 +1,106 @@
-.header-black{
-    background-color: #000;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a{
-    text-decoration:none;
-    color: #fff
+
+.main-page{
+    background: linear-gradient(#000, #434343);
+    height: 100vh;
 }
 
 
-.search{
-    background-color: #a9a9a9;
-}
-::placeholder {
-    color: #d3d3d3;
-}
+header {
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+    
+  }
+  
+  .header-left-div {
+	display: flex;
+	align-items: center;
+  }
+  
+
+  .header-left-div h3 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+	font-size: 1.5rem;
+	margin-right: 1rem;
+  }
+  
+  .header-left-div a {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+	color: #fff;
+	margin-right: 1rem;
+	text-decoration: none;
+  }
+  
+  .header-right-div {
+	display: flex;
+	align-items: center;
+  }
+  
+  .header-right-div form {
+	margin-right: 1rem;
+  }
+  
+  .header-right-div input[type="text"] {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    background-color: #343333;
+	padding: 0.5rem;
+	border-radius: 3px;
+	border: none;
+	margin-right: 0.5rem;
+    text-align: center;
+  }
+  
+  .header-right-div a {
+	margin-right: 1rem;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 2rem;
+  }
+  
+  .btn-primary {
+	background-color: #fff;
+	color: #000;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 3px;
+	text-decoration: none;
+  }
+  
+  .btn-secondary {
+	background-color: transparent;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	text-decoration: none;
+  }
+  
+  .image-top{
+    height: 50vh;
+    width: 100vw;
+  }
