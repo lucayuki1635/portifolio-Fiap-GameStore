@@ -1,5 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --font-main: 'Jost';
+}
+
 
 *{
     margin: 0;
@@ -26,24 +32,24 @@ header {
   
   .header-left-div {
 	display: flex;
-	align-items: center;
+  align-items: baseline
   }
   
 
   .header-left-div h3 {
-    font-family: 'Jost', sans-serif;
+    font-family: var(--font-main);
     font-weight: 900;
     font-style: italic;
-	font-size: 1.5rem;
-	margin-right: 1rem;
+  	font-size: 1.5rem;
+	  margin-right: 1rem;
   }
   
   .header-left-div a {
-    font-family: 'Jost', sans-serif;
+    font-family: var(--font-main);
     font-weight: 400;
-	color: #fff;
-	margin-right: 1rem;
-	text-decoration: none;
+	  color: #fff;
+	  margin-right: 1rem;
+	  text-decoration: none;
   }
   
   .header-right-div {
@@ -51,56 +57,79 @@ header {
 	align-items: center;
   }
   
-  .header-right-div form {
+  .header-right-div form, a {
 	margin-right: 1rem;
   }
   
   .header-right-div input[type="text"] {
-    font-family: 'Jost', sans-serif;
+    font-family: var(--font-main);
     font-weight: 400;
     font-style: italic;
     background-color: #343333;
-	padding: 0.5rem;
-	border-radius: 3px;
-	border: none;
-	margin-right: 0.5rem;
+	  padding: 0.5rem;
+	  border-radius: 3px;
+	  border: none;
+	  margin-right: 0.5rem;
     text-align: center;
   }
   
-  .header-right-div a {
-	margin-right: 1rem;
-  }
-  
-  nav ul {
-	list-style: none;
-	display: flex;
-  }
-  
-  nav a {
-	color: #fff;
-	text-decoration: none;
-	margin-left: 2rem;
-  }
-  
-  .btn-primary {
+  .btn-register {
 	background-color: #fff;
 	color: #000;
+  font-family: var(--font-main);
 	padding: 0.5rem 1rem;
 	border: none;
 	border-radius: 3px;
 	text-decoration: none;
   }
   
-  .btn-secondary {
+  .btn-login {
 	background-color: transparent;
 	color: #fff;
+  font-family: var(--font-main);
 	padding: 0.5rem 1rem;
 	border: 1px solid #fff;
 	border-radius: 3px;
 	text-decoration: none;
   }
   
-  .image-top{
+  
+  .central-image {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+  .game-information{
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    
+  }
+
+  .top-left-title {
+    font-size: xx-large;
+  }
+
+
+  .btn-about{
+    position: absolute;
+    top: 17rem;
+    left: 9rem;
+    background-color: #343333;
+    color: #fff;
+	  padding: 0.5rem 2rem;
+	  border: none;
+	  border-radius: 3px;
+	  text-decoration: none;
+  }
+
+  .main-image{
     height: 50vh;
     width: 100vw;
   }
