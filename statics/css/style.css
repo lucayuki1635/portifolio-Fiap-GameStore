@@ -15,140 +15,140 @@
 
 
 body{
-    background: linear-gradient(#000, #434343);
-    height: 100vh;
+  background: linear-gradient(#000, #434343);
+  height: 100vh;
+}
+
+header {
+background-color: #000;
+color: #fff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0.5rem;
+  
+}
+
+.header-left-div {
+display: flex;
+align-items: baseline;
 }
 
 
-
-header {
-	background-color: #000;
-	color: #fff;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0.5rem;
-    
-  }
-  
-  .header-left-div {
-	display: flex;
-  align-items: baseline;
-  }
-  
-
-  .header-left-div h3 {
-    font-family: var(--font-main);
-    font-weight: 900;
-    font-style: italic;
-  	font-size: 1.5rem;
-	  margin-right: 1rem;
-  }
-  
-  .header-left-div a {
-    font-family: var(--font-main);
-    font-weight: 400;
-	  color: #fff;
-	  margin-right: 1rem;
-	  text-decoration: none;
-  }
-  
-  .header-right-div {
-	display: flex;
-	align-items: center;
-  }
-  
-  .header-right-div form, a {
-	margin-right: 1rem;
-  }
-  
-  .header-right-div input[type="text"] {
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-style: italic;
-    background-color: #343333;
-	  padding: 0.5rem;
-	  border-radius: 3px;
-	  border: none;
-	  margin-right: 0.5rem;
-    text-align: center;
-  }
-  
-  .btn-register {
-	background-color: #fff;
-	color: #000;
+.header-left-div h3 {
   font-family: var(--font-main);
-	padding: 0.5rem 1rem;
-	border: none;
-	border-radius: 3px;
-	text-decoration: none;
-  }
-  
-  .btn-login {
-	background-color: transparent;
-	color: #fff;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.header-left-div a {
   font-family: var(--font-main);
-	padding: 0.5rem 1rem;
-	border: 1px solid #fff;
-	border-radius: 3px;
-	text-decoration: none;
-  }
+  font-weight: 400;
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.header-right-div {
+display: flex;
+align-items: center;
+}
+
+.header-right-div form, a {
+margin-right: 1rem;
+}
+
+.header-right-div input[type="text"] {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-style: italic;
+  background-color: #343333;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+
+.btn-register {
+background-color: #fff;
+color: #000;
+font-family: var(--font-main);
+padding: 0.5rem 1rem;
+border: none;
+border-radius: 3px;
+text-decoration: none;
+}
+
+.btn-login {
+background-color: transparent;
+color: #fff;
+font-family: var(--font-main);
+padding: 0.5rem 1rem;
+border: 1px solid #fff;
+border-radius: 3px;
+text-decoration: none;
+}
+
+.top-left-title {
+  font-size: xx-large;
+}
+
+.central-image {
+  text-align: center;
+  color: white;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align child elements to the bottom */
+  align-items: center;
+}
+
+
+.game-information{
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  text-shadow: 0.1em 0.1em 0.05em #333;
   
-  .top-left-title {
-    font-size: xx-large;
-  }
+}
 
-  .central-image {
-    text-align: center;
-    color: white;
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-
-  .game-information{
-    position: absolute;
-    top: 5rem;
-    left: 8rem;
-    text-shadow: 0.1em 0.1em 0.05em #333;
-    
-  }
-
-  .btn-about{
-    position: absolute;
-    top: 17rem;
-    left: 9rem;
-    background-color: #343333;
-    color: #fff;
-	  padding: 0.5rem 2rem;
-	  border: none;
-	  border-radius: 3px;
-	  text-decoration: none;
-  }
+.btn-about{
+  position: absolute;
+  top: 17rem;
+  left: 9rem;
+  background-color: #343333;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}
 
 
-  .main-image{
-    height: 50vh;
-    width: 100vw;
-  }
+.main-image{
+  height: 50vh;
+  width: 100vw;
+}
 
 .images-header{
-  position: absolute;
-  top: 30rem;
-  left: 20rem;
-
+  margin-top: auto;
+  transform: translateY(-25%);
 }
 
 .small-img{
   display: block;
-  width:50%;
-  height:50%;
+  width: 300px;;
+  height:150px;
 
 }
 
 .big-img{
-  width:100%;
-  height:100%;
+  width:600px;
+  height:300px;
   vertical-align: bottom;
 }
