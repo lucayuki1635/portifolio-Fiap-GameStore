@@ -135,7 +135,6 @@ text-decoration: none;
   text-decoration: none;
 }
 
-
 .main-image{
   height: 50vh;
   width: 100vw;
@@ -185,15 +184,53 @@ text-decoration: none;
 }
 
 .primary-game{
-  width: 50%;
-  max-width: 450px;
+  width: 450px;
   margin: 0;
+  cursor: pointer;
+  position: relative;
 }
 
+.primary-game img{
+  height: 100%;
+  width: 100%;
+}
+
+.primary-game:hover .image-opacity{
+  opacity: .2;
+}
+
+.primary-game:hover .card-info{
+  opacity: 1;
+  bottom: 20%;
+}
 
 .secondary-game{
   width: 100%;
   max-width: 300px;
+  margin: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.secondary-game img{
+  height: 100%;
+  width: 100%;
+}
+
+.secondary-game:hover .image-opacity{
+  opacity: .2;
+}
+
+.secondary-game:hover .card-info{
+  opacity: 1;
+  bottom: 20%;
+}
+
+.card-info{
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: opacity .5s ease-in-out, bottom .5s;
 }
 
 .low-images {
