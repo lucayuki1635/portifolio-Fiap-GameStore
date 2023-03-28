@@ -110,7 +110,7 @@ text-decoration: none;
   font-style: italic;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Align child elements to the bottom */
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -159,10 +159,6 @@ text-decoration: none;
   vertical-align: bottom;
 }
 
-
-
-
-
 .game-category {
   display: flex;
   flex-direction: column;
@@ -173,6 +169,11 @@ text-decoration: none;
   font-weight: 900;
   font-style: italic;
   font-size: 1.5rem;
+}
+
+.game-category-box{
+  width: 900px;;
+  height:550px;
 }
 
 .game-category h2 {
