@@ -67,8 +67,10 @@ margin-right: 1rem;
 }
 
 .header-right-div input[type="text"] {
+  caret-color: #fff;
+  color: #fff;
   font-family: var(--font-main);
-  font-weight: 400;
+  font-weight: 450;
   font-style: italic;
   background-color: #343333;
   padding: 0.5rem;
@@ -79,23 +81,26 @@ margin-right: 1rem;
 }
 
 .btn-register {
-background-color: #fff;
-color: #000;
-font-family: var(--font-main);
-padding: 0.5rem 1rem;
-border: none;
-border-radius: 3px;
-text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  font-family: var(--font-main);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: transform 0.2s ease-out, background-color 0.2s ease-out;
 }
 
+
 .btn-login {
-background-color: transparent;
-color: #fff;
-font-family: var(--font-main);
-padding: 0.5rem 1rem;
-border: 1px solid #fff;
-border-radius: 3px;
-text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: var(--font-main);
+  padding: 0.5rem 1rem;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: transform 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 .top-left-title {
@@ -133,6 +138,34 @@ text-decoration: none;
   border: none;
   border-radius: 3px;
   text-decoration: none;
+  transition: transform 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.btn-about:hover{
+  transform: scale(0.93);
+  background-color: #292828c7;
+}
+
+.btn-about:active{
+  transform: scale(0.93);
+}
+
+.btn-login:hover{
+  transform: scale(0.93);
+  background-color: #292828c7;
+}
+
+.btn-login:active{
+  transform: scale(0.93);
+}
+
+.btn-register:hover{
+  transform: scale(0.93);
+  background-color: #ffffffec;
+}
+
+.btn-register:active{
+  transform: scale(0.93);
 }
 
 .main-image{
