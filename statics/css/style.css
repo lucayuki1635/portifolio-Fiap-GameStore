@@ -279,3 +279,7 @@ footer {
   display: flex;
 }
 
+#secao-orcamento{
+  color: white;
+  font-family: var(--font-main);
+}
