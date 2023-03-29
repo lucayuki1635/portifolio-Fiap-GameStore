@@ -92,7 +92,7 @@ margin-right: 1rem;
 }
 
 
-.btn-login {
+.btn-black {
   background-color: transparent;
   color: #fff;
   font-family: var(--font-main);
@@ -150,12 +150,12 @@ margin-right: 1rem;
   transform: scale(0.93);
 }
 
-.btn-login:hover{
+.btn-black:hover{
   transform: scale(0.93);
   background-color: #292828c7;
 }
 
-.btn-login:active{
+.btn-black:active{
   transform: scale(0.93);
 }
 
@@ -270,3 +270,12 @@ margin-right: 1rem;
   display: flex;
   justify-content: center;
 }
+
+
+footer {
+  padding: 2rem;
+  background-color: #000;
+  color: white;
+  display: flex;
+}
+
