@@ -11,7 +11,7 @@ function calcularOrcamento(){
    if(js.checked) preco *= 1.1
    if(layout_s.checked) preco += 500
 
-   let taxaDeUgencia = preco * (1.1 + prazo.value * 0.1)
+   let taxaDeUgencia = preco * (1.1 - prazo.value * 0.1)
    preco += taxaDeUgencia
 
    label_prazo.innerHTML = `Prazo (${prazo.value} semanas)`
