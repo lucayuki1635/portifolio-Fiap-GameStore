@@ -24,30 +24,27 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 2.4rem;
-  width: 2.4rem;
-  position: fixed;
-  right: 2rem;
-  top: 0.6rem;
-  z-index: 10;
 }
 
-.linha{
-  height: .5rem;
-  width: 100%;
-  box-shadow: 2px 2px 2px #000;
-  background-color: rgb(0, 0, 0);
-  
+
+.no-decorations{
+  font-family: var(--font-main);
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu{
-  height: 100vh;
+  height: 20vh;
   width: 20rem;
   position: fixed;
-  right: -20rem;
-  background-color: #fff;
+  top: 3.6rem;
+  right: -90rem;
+  background-color: #434343;
   z-index: 9;
   transform: ri;
+  list-style-type: none;
+  border-radius: 5%;
 }
 
 .show-menu{
