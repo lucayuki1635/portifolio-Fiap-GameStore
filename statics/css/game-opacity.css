@@ -8,13 +8,54 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 .main-image{
     height: 50vh;
     width: 98.6vw;
+}
+
+.central-image {
+  text-align: center;
+  color: white;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.game-information{
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  
+}
+
+.btn-about{
+  position: absolute;
+  top: 17rem;
+  left: 9rem;
+  background-color: #343333;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: transform 0.2s ease-out, background-color 0.2s ease-out;
+}
+
+.btn-about:hover{
+  transform: scale(0.93);
+  background-color: #292828c7;
+}
+
+.btn-about:active{
+  transform: scale(0.93);
 }
   
 .images-header{
@@ -155,8 +196,18 @@
     justify-content: center;
 }
 
+.secoes-games{
+    margin-bottom: 2rem;
+}
+
 @media(max-width: 900px){
     .game-category{
         flex-direction: column;
     }
+
+    .primary-game{
+        max-width: calc(100%/2);
+    }
+
+
 }
