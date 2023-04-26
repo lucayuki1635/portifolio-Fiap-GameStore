@@ -30,15 +30,15 @@
 
 .game-information{
   position: absolute;
-  top: 5rem;
-  left: 8rem;
+  top: 7rem;
+  left: 6rem;
   text-shadow: 0.1em 0.1em 0.05em #333;
   
 }
 
 .btn-about{
   position: absolute;
-  top: 17rem;
+  top: 19rem;
   left: 9rem;
   background-color: #343333;
   color: #fff;
